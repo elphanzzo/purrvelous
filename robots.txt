@@ -1,0 +1,3 @@
+# Preview site: keep it out of search results until launch on purrvelous.com
+User-agent: *
+Disallow: /
