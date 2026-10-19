@@ -327,7 +327,7 @@ body.bn .filters h4{letter-spacing:.02em;font-size:.88rem}
 @media (max-width:900px){.shop{grid-template-columns:1fr;gap:0}.filters{display:none}.fchips{display:flex}}
 .pgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
 @media (max-width:1100px){.pgrid{grid-template-columns:repeat(2,1fr)}}
-@media (max-width:420px){.pgrid{gap:10px}}
+@media (max-width:600px){.pgrid{grid-template-columns:1fr;gap:16px}.pcard.soon .art{aspect-ratio:2/1}.pcard.soon .art svg{width:22%}}
 .pcard{position:relative;display:flex;flex-direction:column;gap:10px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px;min-width:0}
 .pcard .ph{aspect-ratio:1/1}
 .pcard .heart{position:absolute;top:20px;right:20px;z-index:3;background:var(--surface);box-shadow:var(--shadow)}
