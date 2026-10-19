@@ -149,7 +149,6 @@ body.notes .ph .brief{display:block}
 
 /* sample markers */
 .smp{text-decoration:none}
-body.notes .smp{background:linear-gradient(transparent 60%,color-mix(in srgb,var(--mustard) 45%,transparent) 60%)}
 .note{display:none;border:1.5px dashed var(--mustard-deep);background:color-mix(in srgb,var(--mustard) 12%,var(--surface));border-radius:var(--r-sm);padding:10px 14px;font-size:.86rem;line-height:1.5}
 body.notes .note{display:block}
 .note b{font-weight:800}
@@ -174,7 +173,7 @@ main{min-height:60vh}
 .hero .wrap{display:grid;grid-template-columns:1.05fr 1fr;gap:48px;align-items:center}
 .hero h1{font-size:clamp(2.6rem,6.2vw,4.9rem);line-height:.98;letter-spacing:-.02em}
 body.bn .hero h1{line-height:1.2;font-size:clamp(2.3rem,5.4vw,4.2rem)}
-.hero h1 em{font-style:normal;background:linear-gradient(transparent 62%,var(--mustard) 62% 92%,transparent 92%);padding:0 .06em}
+.hero h1 em{font-style:normal}
 .hero .lede{font-size:1.15rem;color:var(--muted);max-width:44ch;margin-top:20px}
 .hero .ctas{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
 .hero .meta{display:flex;gap:18px;margin-top:28px;flex-wrap:wrap;font-size:.9rem;font-weight:600}

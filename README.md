@@ -14,7 +14,7 @@ Works best in Chrome or Edge. An internet connection is needed only for the font
 | --- | --- |
 | Any text, in English or Bangla | `js/data.js` |
 | Product name, price, features, specs | `js/data.js`, the `PRODUCTS` section |
-| Phone, email, delivery charges, Facebook link | `js/data.js`, the `STORE` section at the top |
+| Phone, email, delivery charges, Facebook and Instagram links | `js/data.js`, the `STORE` section at the top |
 | Turn a Coming Soon category live | `js/data.js`, change `status: "soon"` to `status: "live"` in `CATEGORIES` |
 | Blog posts (text, meta title, meta description, FAQ) | `js/blog.js` |
 | FAQ, About story, policies | `js/data.js`, the `FAQ`, `ABOUT` and `POLICIES` sections |
@@ -24,7 +24,9 @@ Open these files in any text editor. VS Code is free and makes it easier. After 
 
 ## Photo notes
 
-The "Photo notes" button in the top bar shows what photo to take for every image slot. It also highlights every placeholder detail in yellow (bag size, capacity, delivery times, return window, support hours). Replace those before launch.
+The "Photo notes" button in the top bar shows what photo to take for every image slot.
+
+Some details are still placeholders: bag size, capacity, material, delivery times, return window and support hours. Replace them before launch.
 
 ## Blog and SEO
 

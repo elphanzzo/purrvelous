@@ -7,7 +7,8 @@ const STORE = {
   phoneDisplay: "+880 1708 546964",
   wa: "8801708546964",
   email: "purrvelous@gmail.com",
-  facebook: "https://www.facebook.com/",
+  facebook: "https://www.facebook.com/purrvelous",
+  instagram: "https://www.instagram.com/purrvelous",
   delivery: { inside: 70, outside: 100 },
   /* Facebook Pixel: paste your Pixel ID here when the live site goes up */
   pixelId: ""
